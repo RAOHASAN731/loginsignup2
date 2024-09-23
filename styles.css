@@ -1,0 +1,104 @@
+div{
+    display: flex;
+    flex-direction:row;
+        block-size: 100%; 
+    block-size: 100%;
+    column-width: 50%;
+    background-color: rgba(123, 81, 81, 0.578);
+border-inline-end-style: unset;
+}
+#div1{
+    display: flex;
+    flex-direction:column;
+    padding-inline-start: 5px;
+    font-size: 33px; 
+    inline-size: 50%;
+    background: rgb(8, 105, 185);
+    text-align: center;
+    block-size: 100vh;
+    color: aliceblue;
+    border-radius: 50px 0 50px 0;  
+}
+#div2{
+    display: flex;
+    flex-direction:column;
+padding-inline-start: 15px;
+    block-size: 100vh;
+    background-color: rgb(246, 246, 246);
+    inline-size: 50%;
+    border-radius: 50px 0 50px 0; 
+    font-size: larger;   
+padding-inline-start: 20px;
+
+}
+#div3{
+    align-self: center;
+   border-color: black;
+   border-radius: 400%;
+   background: rgb(232, 232, 232);
+   inline-size: 60px;
+   padding-block-start: 7px;
+   
+    }
+#div4{
+    background: rgb(8, 105, 185);
+    align-self: center;
+    display: flex;
+    flex-direction:column;
+       text-align: center;
+       color: rgb(255, 255, 255);
+       font-size: 50px ;
+p{
+    font-size: 14px;
+    color: aliceblue;
+    font-style: italic;
+    font-style: oblique;
+    
+}
+}
+#div5{
+    background: rgb(8, 105, 185);
+    font-size: 10px;
+    justify-content: center;
+    align-items: end;
+}
+.button-container{
+            display: flex; 
+            align-self: center; 
+           gap:20px;
+           background-color: rgb(246, 246, 246);
+}
+.SignIn{
+    display: flex; 
+    flex-direction:column;
+    padding: 12px 12px  12px ; 
+    font-size: 14px; 
+    background-color: #ededed; 
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    block-size: 40px;
+}
+.Signup{
+    display: flex; 
+    flex-direction:column;
+    padding: 12px 12px  12px ; 
+    font-size: 14px; 
+    background-color: #007bff; 
+    color: white;
+    border-radius: 30px;
+    block-size: 40px;
+
+}
+#div2{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input{
+    border:none ; 
+    outline: none; 
+   font-size: large;
+   text-decoration: underline;
+   text-decoration-color: rgb(154, 154, 228);
+   text-decoration-thickness: 3px;
+    padding-inline-start: 8px;
+   
+}
